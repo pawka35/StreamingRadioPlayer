@@ -1,0 +1,12 @@
+{
+  "signUp": "Войди",
+  "toStartPlay": "чтобы начать слушать",
+  "phoneNumber": "Номер телефона",
+  "yourPhoneNumber": "Ваш номер телефона",
+  "otpVerification": "Авторизация по СМС",
+  "enter6DigitOtp": "Введите 6 цифр из СМС",
+  "invalidOtp": "Неверный код",
+  "submit": "Подтвердить",
+  "logout": "Выйти",
+  "invalidPhoneNumber": "Неверный номер телефона"
+}
