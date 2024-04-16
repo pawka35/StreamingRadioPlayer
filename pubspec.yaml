@@ -28,7 +28,14 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  firebase_core: ^2.29.0
+  firebase_auth: ^4.19.1
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+
   flutter:
+    sdk: flutter
+  flutter_localizations:
     sdk: flutter
 
 
@@ -45,7 +52,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.0
+  flutter_lints: ^3.0.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -59,7 +66,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/images/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -74,8 +82,37 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
+  fonts:
+    - family: SF-Pro
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Black.otf
+          weight: 900
+        - asset: assets/fonts/SF-Pro-Display-Heavy.otf
+          weight: 800
+        #     - asset: fonts/SF-Pro-Display-BlackItalic.otf
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Display-Thin.otf
+          weight: 300
+        - asset: assets/fonts/SF-Pro-Display-Light.otf
+          weight: 200
+        - asset: assets/fonts/SF-Pro-Display-Ultralight.otf
+          weight: 100
+          #        - asset: fonts/SF-Pro-Display-BoldItalic.otf
+#        - asset: fonts/SF-Pro-Display-HeavyItalic.otf
+#        - asset: fonts/SF-Pro-Display-LightItalic.otf
+#        - asset: fonts/SF-Pro-Display-MediumItalic.otf
+#        - asset: fonts/SF-Pro-Display-RegularItalic.otf
+#        - asset: fonts/SF-Pro-Display-SemiboldItalic.otf
+#        - asset: fonts/SF-Pro-Display-ThinItalic.otf
+#        - asset: fonts/SF-Pro-Display-UltralightItalic.otf
+
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
@@ -88,3 +125,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true

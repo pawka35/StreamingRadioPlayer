@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523886403992",
+    "project_id": "radioplayer-c9e00",
+    "storage_bucket": "radioplayer-c9e00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523886403992:android:94eddd2a867a03dbe10bed",
+        "android_client_info": {
+          "package_name": "ru.pawka.radio.final_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtn0OMVA9fKNhkZFpkVOL-dGVUr9yRsME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

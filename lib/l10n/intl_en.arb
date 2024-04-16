@@ -1,0 +1,13 @@
+{
+  "signUp": "Sign up",
+  "toStartPlay": "to start play",
+  "phoneNumber": "Phone Number",
+  "yourPhoneNumber": "Your phone number",
+  "otpVerification": "OTP Verification",
+  "enter6DigitOtp": "Enter 6 digit OTP",
+  "enterYouPhoneNumber": "Enter you phone number",
+  "invalidOtp": "Invalid OTP",
+  "submit": "Submit",
+  "logout": "LogOut",
+  "invalidPhoneNumber": "Invalid phone number"
+}
